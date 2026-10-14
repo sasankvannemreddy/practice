@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f4f8;
+}
+
+header {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: black;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: navy;
+}
+
+#home {
+    text-align: center;
+    padding: 10px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.categories span {
+    background: lightblue;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #aaa;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    background: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: orange;
+}
+
+footer {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        margin: 6px;
+    }
+}
